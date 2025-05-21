@@ -11,7 +11,7 @@ class BarangController extends Controller
      */
     public function index()
     {
-        //
+        return view('barangs.index');
     }
 
     /**
@@ -19,7 +19,7 @@ class BarangController extends Controller
      */
     public function create()
     {
-        //
+        return view('barangs.create');
     }
 
     /**
