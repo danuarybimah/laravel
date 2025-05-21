@@ -13,7 +13,7 @@ class CreateBarangsTable extends Migration
             $table->string('kode')->unique();
             $table->string('nama_barang');
             $table->text('deskripsi')->nullable();
-            $table->decimal('harga_satuan', 10, 2);
+            $table->decimal('harga_satuan', 15, 2);
             $table->integer('jumlah');
             $table->timestamps();
         });
